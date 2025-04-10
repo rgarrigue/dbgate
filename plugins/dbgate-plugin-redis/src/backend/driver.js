@@ -116,6 +116,7 @@ const driver = {
         password,
         db,
         tls: ssl,
+        family: 0
       };
       if (!skipSetName) {
         connectionOptions.connectionName = 'dbgate';
